@@ -20,10 +20,10 @@ interface Feature {
 
 const features: Array<Feature> = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Smart Tax Planning',
+    summary: 'AI-powered tax optimization and compliance monitoring.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Our AI system continuously monitors your transactions, identifies tax deductions, and provides real-time guidance on tax optimization strategies. Stay compliant and maximize your savings automatically.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -54,11 +54,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Financial Insights',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Deep learning algorithms analyze your business patterns and trends.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Our advanced AI examines your financial data to identify spending patterns, predict cash flow trends, and provide actionable recommendations for improving your business performance.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -82,11 +82,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Automated Reconciliation',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Intelligent matching of transactions and automatic error detection.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Our AI automatically matches bank transactions with your records, identifies discrepancies, and suggests corrections. Save hours of manual work and maintain accurate books effortlessly.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -228,17 +228,17 @@ export function SecondaryFeatures() {
   return (
     <section
       id="secondary-features"
-      aria-label="Features for simplifying everyday business tasks"
+      aria-label="Advanced features powered by AI"
       className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Intelligent financial management.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Let our AI handle the complex financial tasks while you focus on growing your business.
+            Smart automation and insights that work for you.
           </p>
         </div>
         <FeaturesMobile />

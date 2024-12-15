@@ -1,3 +1,4 @@
+import React from 'react'
 import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
@@ -123,56 +124,63 @@ export function Pricing() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
+              <span className="relative">Smart pricing,</span>
             </span>{' '}
-            for everyone.
+            for smarter accounting.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Choose the right plan for your business and let our AI transform your financial management.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            price="$29"
+            description="Perfect for freelancers and small businesses getting started with AI accounting."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'AI-powered receipt scanning (100/month)',
+              'Automated transaction categorization',
+              'Basic financial insights',
+              'Connect 2 bank accounts',
+              'Email support',
+              'Monthly AI-generated reports',
+              'Basic tax calculation assistance'
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Professional"
+            price="$79"
+            description="Ideal for growing businesses needing advanced AI features."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Unlimited AI receipt scanning',
+              'Advanced categorization & learning',
+              'Real-time financial insights',
+              'Connect 10 bank accounts',
+              'Priority support',
+              'Custom AI-generated reports',
+              'Smart tax planning & reminders',
+              'Cash flow predictions',
+              'Vendor payment automation'
             ]}
           />
           <Plan
             name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            price="$199"
+            description="For larger businesses requiring full AI automation and insights."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Everything in Professional plus:',
+              'Multi-company support',
+              'Advanced AI financial forecasting',
+              'Custom AI model training',
+              'Unlimited bank connections',
+              'API access',
+              'Dedicated account manager',
+              'Custom integrations',
+              'Advanced security features'
             ]}
           />
         </div>

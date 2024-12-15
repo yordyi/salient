@@ -14,28 +14,28 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Smart Receipt Scanning',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
-  },
-  {
-    title: 'Claim expenses',
-    description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      'Instantly digitize receipts with our AI-powered OCR technology. Automatically extracts key information like date, amount, and vendor with 99% accuracy.',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Intelligent Categorization',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      'Our AI automatically categorizes your transactions and learns from your corrections, making bookkeeping effortless and increasingly accurate over time.',
+    image: screenshotPayroll,
   },
   {
-    title: 'Reporting',
+    title: 'Predictive Analytics',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Leverage AI-driven insights to forecast cash flow, identify spending patterns, and receive personalized recommendations for financial optimization.',
     image: screenshotReporting,
+  },
+  {
+    title: 'Automated Reporting',
+    description:
+      'Generate comprehensive financial reports with one click. Our AI analyzes your data to create customized insights and visualizations.',
+    image: screenshotVatReturns,
   },
 ]
 
@@ -62,7 +62,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="Features for AI-powered accounting"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
       <Image
@@ -76,11 +76,11 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Experience the future of accounting.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Harness the power of artificial intelligence to automate your bookkeeping 
+            and unlock valuable financial insights.
           </p>
         </div>
         <TabGroup
