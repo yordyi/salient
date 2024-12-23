@@ -21,7 +21,7 @@ export function Footer() {
             <p>Himalayas X LLC</p>
             <p>418 Broadway, Suite 5184</p>
             <p>Albany, NY 12207</p>
-            <p>Phone: (646) 693-6415</p>
+            <p>Phone: (412) 301-7426</p>
             <p>Email: founder@himalayasx.com</p>
           </div>
         </div>
