@@ -17,6 +17,13 @@ export function Footer() {
               <NavLink href="#pricing">Pricing</NavLink>
             </div>
           </nav>
+          <nav className="mt-6 text-sm" aria-label="legal">
+            <div className="-my-1 flex justify-center gap-x-6">
+              <NavLink href="/policies/privacy">Privacy Policy</NavLink>
+              <NavLink href="/policies/terms">Terms of Service</NavLink>
+              <NavLink href="/policies/refund">Refund Policy</NavLink>
+            </div>
+          </nav>
           <div className="mt-8 text-center text-sm text-slate-500">
             <p>Himalayas X LLC</p>
             <p>418 Broadway, Ste 5184</p>
