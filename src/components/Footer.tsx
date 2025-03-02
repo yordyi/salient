@@ -26,9 +26,10 @@ export function Footer() {
           </nav>
           <div className="mt-8 text-center text-sm text-slate-500">
             <p>Himalayas X LLC</p>
-            <p>418 Broadway, Ste 5184</p>
+            <p>Founder: Shuaihao Guo</p>
+            <p>418 Broadway, Suit 5184</p>
             <p>Albany, NY 12207</p>
-            <p>Phone: (412) 301-7426</p>
+            <p>Phone: (458) 257-1392</p>
             <p>Email: founder@himalayasx.com</p>
           </div>
         </div>
